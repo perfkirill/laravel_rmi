@@ -1,0 +1,265 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.dashboard_header{margin-bottom: 30px; padding-bottom: 0px;}
+.dashboard_content_wrap{margin-top: 40px;}
+
+.seo_keys_inser_form_textarea{width: 100%;}
+
+
+.content {
+    line-height: 1.4;
+}
+
+.content p {
+    margin-bottom: 30px;
+}
+
+.content blockquote {
+    background: #feebef;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.content.wiki p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.content.wiki blockquote {
+    background: #feebef;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.content.wiki blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.content ul {
+    list-style: disc;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.content.wiki ul {
+    font-size: 18px;
+    margin-top: -10px !important;
+}
+
+.content ol {
+    list-style: decimal;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.content b {
+    font-weight: bold;
+}
+
+.content strong {
+    font-weight: bold;
+}
+
+.content i,
+.content em {
+    font-style: italic;
+}
+
+.content table {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.content table tr {
+    width: 100%;
+}
+
+.content table td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.content table th {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.content img {
+    padding: 0 0px;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.content h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.content h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.content h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.content h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.content h5 {
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.content h6 {
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+/* UI content */
+.content {
+    line-height: 1.4;
+}
+
+.content p {
+    margin-bottom: 25px;
+}
+
+.content ul {
+    list-style: disc;
+    margin: 10px 0;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.content ol {
+    list-style: decimal;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.content b {
+    font-weight: bold;
+}
+
+.content strong {
+    font-weight: bold;
+}
+
+.content i,
+.content em {
+    font-style: italic;
+}
+
+.content table {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.content table tr {
+    width: 100%;
+}
+
+.content table td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.content table th {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.content img {
+    padding: 0px;
+
+}
+
+.content iframe {
+    border-radius: 4px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+.site_wrap_text_pageh1{ font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 36px; text-align:center; margin-top: 40px; margin-bottom: 30px;}
+
+
+.content h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.content h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.content h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.content h5 {
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.content h6 {
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.content a {
+    color: #f7161b;
+    text-decoration: underline !important;
+}
+
+.content a {
+    color: #f7161b;
+    text-decoration: underline !important;
+}
+
+.content blockquote {
+    padding: 12px 15px;
+    background: #fff3cd;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.content blockquote.green {
+    background: #d4edda;
+}

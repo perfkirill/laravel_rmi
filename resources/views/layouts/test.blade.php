@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@yield("title")</title>
+</head>
+<body>
+<header>
+   @include("include.test_header")
+</header>
+<aside>
+    сайдбар
+    @yield("sidebar")
+</aside>
+<main>
+    @yield("content")
+</main>
+<footer>
+    @include("include.test_footer")
+</footer>
+</body>
+</html>

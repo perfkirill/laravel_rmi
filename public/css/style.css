@@ -1,0 +1,168 @@
+.dashboard_header{display: flex; margin-bottom: 30px;}
+.dashboard_header .dashboard_header_links{margin-left: auto;}
+.dashboard_header a{margin-left: 15px;}
+.dashboard_header h1{font-size:24px; font-weight:bold}
+
+a{color:dodgerblue; text-decoration: underline;}
+
+.dashboard_content_wrap{display:grid; grid-template-columns: 1fr 3fr;}
+
+
+.content {
+    line-height: 1.4;
+}
+
+.content p {
+    margin-bottom: 30px;
+}
+
+.content blockquote {
+    background: #feebef;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.content.wiki p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.content.wiki blockquote {
+    background: #feebef;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.content.wiki blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.content ul {
+    list-style: disc;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.content.wiki ul {
+    font-size: 18px;
+    margin-top: -10px !important;
+}
+
+.content ol {
+    list-style: decimal;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.content b {
+    font-weight: bold;
+}
+
+.content strong {
+    font-weight: bold;
+}
+
+.content i,
+.content em {
+    font-style: italic;
+}
+
+.content table {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.content table tr {
+    width: 100%;
+}
+
+.content table td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.content table th {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.content img {
+    padding: 0 0px;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.content h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.content h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.content h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.content h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.content h5 {
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.content h6 {
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+
+.dashboard_content_tasks input{margin-right: 10px;}
+.dashboard_content_tasks a{float:right}
+.dashboard_content_tasks li{padding:5px}
+.dashboard_content_tasks li:hover{
+    background: lightgrey; transition: all 0.5s;}
+
+.dashboard_content_task_new_form{display: grid; grid-template-columns: 3fr 1fr 1fr; align-items: end;}
+.ui_button{
+    background: deepskyblue; border-radius: 4px; text-align: center; color: white ; vertical-align: middle; padding:15px;}
+
+.dashboard_content_task_new_form button{padding:8px; margin-left: auto}
+.dashboard_content_tasks_list span{float:right}
+.dashboard_content_tasks_list{margin-top: 40px;}
+
+
+.seo_keys_inser_form_textarea{width: 100%;}
+.seo_keys_inser_form_button{padding:15px;}
+.seo_keys_table{margin-top: 50px;}
+
+.seo_keys_table td:first-child{width: 80%;}
+
+.projects_button_new{float:right; }
+
+.project_list li{margin-bottom: 7px; }
+
+.project_menu li{margin-bottom: 8px;}
+
+.dashboard_content_button{float:right;}
+.dashboard_content_items ul li{margin-bottom: 7px; padding-bottom: 0;}
+.google_api_form textarea{width:100%; }
